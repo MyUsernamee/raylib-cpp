@@ -82,7 +82,7 @@ class Rectangle : public ::Rectangle {
 
     void DrawRoundedLines(float roundness, int segments,
             float lineThick, ::Color color) const {
-        ::DrawRectangleRoundedLines(*this, roundness, segments, lineThick, color);
+        ::DrawRectangleRoundedLines(*this, roundness, segments, color);
     }
 
     /**
